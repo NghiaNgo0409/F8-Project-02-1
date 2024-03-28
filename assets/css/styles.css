@@ -127,10 +127,6 @@ navbar .cta-group .btn {
     justify-content: space-between;
 }
 
-.hero .info {
-    /* width: 39%; */
-}
-
 .hero .info .quote {
     color: #767e7e;
     font-size: 1.4rem;
