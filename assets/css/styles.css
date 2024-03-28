@@ -35,6 +35,7 @@ a {
     background-color: var(--primary-color);
     display: inline-block;
     text-align: center;
+    line-height: normal;
 }
 
 .heading {
@@ -55,6 +56,7 @@ a {
 .lv3 {
     font-weight: 600;
     font-size: 2rem;
+    line-height: normal;
 }
 
 /* Header */
@@ -82,6 +84,7 @@ navbar .list .link {
     color: #2f3a3b;
     font-size: 1.6rem;
     font-weight: 400;
+    line-height: normal;
 }
 
 navbar .list .link:hover {
@@ -96,6 +99,7 @@ navbar .sign-in {
     color: #494949;
     font-size: 1.6rem;
     font-weight: 400;
+    line-height: normal;
 }
 
 navbar .cta-group .btn {
@@ -130,6 +134,7 @@ navbar .cta-group .btn {
     color: #767e7e;
     font-size: 1.4rem;
     font-weight: 400;
+    line-height: normal;
 }
 
 .hero .heading {
@@ -187,9 +192,7 @@ navbar .cta-group .btn {
     align-items: center;
 }
 
-.hero .courses.book {
-    content: "";
-    display: block;
+.hero .courses .book {
     width: 36px;
     height: 40px;
 }
@@ -235,6 +238,7 @@ navbar .cta-group .btn {
     color: #0d1111;
     font-size: 1rem;
     font-weight: 500;
+    line-height: normal;
     text-align: center;
     display: block;
     margin-top: 16px;
@@ -276,6 +280,7 @@ navbar .cta-group .btn {
     color: #0d1111;
     font-size: 1rem;
     font-weight: 500;
+    line-height: normal;
     display: block;
     margin-left: 35px;
 }
@@ -315,6 +320,7 @@ navbar .cta-group .btn {
     color: #767e7e;
     font-size: 1.2rem;
     font-weight: 700;
+    line-height: normal;
 }
 
 .features .heading {
@@ -327,6 +333,7 @@ navbar .cta-group .btn {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
+    line-height: normal;
 }
 
 .features .list {
@@ -353,4 +360,120 @@ navbar .cta-group .btn {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.69; /* 168.75% */
+}
+/* Courses */
+.courses {
+    margin-top: 130px;
+}
+
+.courses .label {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .row .desc {
+    margin-top: 19px;
+    width: 525px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78; /* 177.778% */
+}
+
+.courses .link {
+    color: #1ebfc1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.courses .list {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.courses .item {
+    width: 359px;
+    position: relative;
+}
+
+.courses .image {
+    width: 100%;
+    height: 393px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.courses .item-info {
+    position: absolute;
+    top: 322px;
+    left: 17px;
+    width: 325px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    padding: 18px 0 29px 25px;
+}
+
+.courses .item-info .heading {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses .item-info .fee {
+    margin-top: 16px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+.courses .item-info .fee span {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses .item-info .info {
+    margin-top: 6;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses .tags {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+.courses .tags p {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+.courses .tags p::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: block;
+    margin-right: 10px;
 }
