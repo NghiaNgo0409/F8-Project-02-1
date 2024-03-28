@@ -650,3 +650,56 @@ navbar .cta-group .btn {
     font-weight: 600;
     line-height: normal;
 }
+/* Footer */
+.footer {
+    padding: 130px 0 50px;
+}
+
+.footer .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .list .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .link-list {
+    margin-top: 26px;
+}
+
+.footer .item:last-child .link-list {
+    margin-top: 18px;
+}
+
+.footer .link-list li {
+    margin-top: 18px;
+}
+
+.footer .link-list .link {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer a.social {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+}
