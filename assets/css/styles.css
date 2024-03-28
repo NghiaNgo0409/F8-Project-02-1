@@ -37,6 +37,16 @@ a {
     text-align: center;
 }
 
+.heading {
+    color: #0d1111;
+    font-weight: 700;
+}
+
+.lv1 {
+    font-size: 6.2rem;
+    line-height: 1.16;
+}
+
 /* Header */
 header {
     padding: 8px 0;
@@ -112,12 +122,8 @@ navbar .cta-group .btn {
     font-weight: 400;
 }
 
-.hero .info .title {
+.hero .heading {
     margin-top: 18px;
-    color: #0d1111;
-    font-size: 6.2rem;
-    font-weight: 700;
-    line-height: 1.16; /* 116.129% */
 }
 
 .hero .info .desc {
