@@ -623,3 +623,30 @@ navbar .cta-group .btn {
     top: 107px;
     right: 171px;
 }
+/* Info */
+.info-section {
+    margin-top: 130px;
+    background-color: #def6f5;
+}
+
+.info-section .body {
+    padding: 76px 0 88px;
+    display: flex;
+    align-items: center;
+}
+
+.info-section .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info-section .btn {
+    margin-left: 410px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: normal;
+}
