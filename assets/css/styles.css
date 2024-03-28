@@ -477,3 +477,34 @@ navbar .cta-group .btn {
     display: block;
     margin-right: 10px;
 }
+/* Numbers */
+.numbers {
+    margin-top: 369px;
+}
+
+.numbers .content {
+    width: 862px;
+}
+
+.numbers .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers strong {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    display: block;
+}
+
+.numbers .desc {
+    margin-top: 11px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
