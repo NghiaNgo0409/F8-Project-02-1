@@ -47,6 +47,16 @@ a {
     line-height: 1.16;
 }
 
+.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
+.lv3 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
 /* Header */
 header {
     padding: 8px 0;
@@ -295,4 +305,52 @@ navbar .cta-group .btn {
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
+}
+/* Features */
+.features {
+    margin-top: 130px;
+}
+
+.features .label {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .heading {
+    width: 577px;
+}
+
+.features .desc {
+    margin-top: 18px;
+    width: 590px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.features .list {
+    margin-top: 80px;
+    display: flex;
+    gap: 209px;
+}
+
+.features .item:first-child {
+    width: 168px;
+}
+
+.features .item + .item {
+    width: 223px;
+}
+
+.features .item .heading {
+    margin-top: 26px;
+}
+
+.features .item .info {
+    margin-top: 16px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69; /* 168.75% */
 }
